@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Platform Native Output (Continuous Native Generation)
+/android
+/ios
+android/
+ios/
+
+# Build Artifacts & Caches
+build/
+.kotlin/
+*.tsbuildinfo
+.metro-health-check*
+
+# Environment Configurations & Local Secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keystores, Signing Certificates & Private Keys
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.keystore
+*.mobileprovision
+
+# NPM, Yarn, Metro Debug & Crash Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.orig.*
+
+# macOS & Windows System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Configurations
+.idea/
+*.sublime-project
+*.sublime-workspace
